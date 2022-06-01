@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <a
         className="App-link"
-        href="/"
+        href="https://github.com/chocoboabby/abby-react-dictionary-app"
         target="_blank"
         rel="noopener noreferrer"
       >
