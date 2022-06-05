@@ -5,7 +5,9 @@ export default function DictionaryMeaning(props) {
   console.log(props.meanings);
   return (
     <div className="DictionaryMeaning">
-      <h4>{props.meanings.partOfSpeech}</h4>
+      <h4>
+        <em>{props.meanings.partOfSpeech}</em>
+      </h4>
       {props.meanings.definitions.map(function (definition, index) {
         return (
           <div key={index}>
