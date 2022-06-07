@@ -6,15 +6,16 @@ export default function DictionaryResult(props) {
   if (props.results) {
     return (
       <div className="DictionaryResult">
-        <h1 className="text-capitalize">{props.results.word}</h1>
-        {props.results.phonetics.map(function (phonetic, index) {
-          return (
-            <div key={index}>
-              <DictionaryPhonetics phonetic={phonetic} />
-            </div>
-          );
-        })}
-
+        <section>
+          <h1 className="text-capitalize">{props.results.word}</h1>
+          {props.results.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <DictionaryPhonetics phonetic={phonetic} />
+              </div>
+            );
+          })}
+        </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>

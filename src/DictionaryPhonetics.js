@@ -1,4 +1,5 @@
 import React from "react";
+import "./DictionaryPhonetics.css";
 
 export default function DictionaryPhonetics(props) {
   if (props.phonetic.audio === "") {
@@ -10,7 +11,7 @@ export default function DictionaryPhonetics(props) {
           Listen
         </a>
         <br />
-        {props.phonetic.text}
+        <span className="text">{props.phonetic.text}</span>
       </div>
     );
   }
