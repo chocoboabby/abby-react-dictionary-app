@@ -31,6 +31,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
       </form>
+
       <DictionaryResult results={result} />
     </div>
   );

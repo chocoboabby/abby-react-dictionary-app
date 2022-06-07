@@ -6,7 +6,7 @@ export default function DictionaryResult(props) {
   if (props.results) {
     return (
       <div className="DictionaryResult">
-        <h2 className="text-capitalize">{props.results.word}</h2>
+        <h1 className="text-capitalize">{props.results.word}</h1>
         {props.results.phonetics.map(function (phonetic, index) {
           return (
             <div key={index}>
@@ -14,6 +14,7 @@ export default function DictionaryResult(props) {
             </div>
           );
         })}
+
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
