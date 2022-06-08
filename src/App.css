@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap");
+
 body {
+  font-family: "Source Serif Pro", serif;
   background: #352f44;
   margin: 30px 0;
 }
