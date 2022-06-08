@@ -1,10 +1,14 @@
+.DictionaryPhonetics {
+  margin-bottom: 10px;
+}
+
 .DictionaryPhonetics a {
   border: 1px solid #352f44;
   color: #352f44;
   text-decoration: none;
-  padding: 4px 8px;
+  padding: 2px 8px;
   font-size: 11px;
-  margin-right: 10px;
+  margin: 10px 20px;
   font-weight: bold;
   border-radius: 5px;
   transition: all 150ms ease-in-out;
@@ -18,7 +22,8 @@
 .DictionaryPhonetics .text {
   color: #352f44;
   position: relative;
-  font-weight: bold;
-  left: 60px;
-  bottom: 22px;
+  font-style: italic;
+  font-weight: 20px;
+  left: -15px;
+  bottom: -1px;
 }

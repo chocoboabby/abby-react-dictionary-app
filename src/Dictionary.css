@@ -1,1 +1,17 @@
+.Dictionary section {
+  background: #dbd8e3;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 20px 0;
+}
 
+.Dictionary input {
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #352f44;
+  border-radius: 5px;
+}
+
+.Dictionary .WordSearch {
+  font-size: 20px;
+}

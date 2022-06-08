@@ -1,4 +1,12 @@
 body {
-  background: #dbd8e3;
+  background: #352f44;
   margin: 30px 0;
+}
+
+small {
+  color: #dbd8e3;
+}
+
+a {
+  text-decoration: none;
 }

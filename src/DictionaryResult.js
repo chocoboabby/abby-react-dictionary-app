@@ -1,6 +1,7 @@
 import React from "react";
 import DictionaryMeaning from "./DictionaryMeaning";
 import DictionaryPhonetics from "./DictionaryPhonetics";
+import "./DictionaryResults.css";
 
 export default function DictionaryResult(props) {
   if (props.results) {
@@ -18,9 +19,9 @@ export default function DictionaryResult(props) {
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <DictionaryMeaning meanings={meaning} />{" "}
-            </div>
+            </section>
           );
         })}
       </div>
