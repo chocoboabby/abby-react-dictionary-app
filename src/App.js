@@ -20,6 +20,15 @@ function App() {
           <span>
             <small>by Abby Dela Fuente</small>
           </span>
+          <br />
+          <a
+            href="https://www.flaticon.com/free-icons/dictionary"
+            title="dictionary icons"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <small>Dictionary icons created by Freepik - Flaticon</small>
+          </a>
         </div>
       </div>
     </div>
