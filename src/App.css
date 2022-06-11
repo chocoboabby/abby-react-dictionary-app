@@ -13,3 +13,10 @@ small {
 a {
   text-decoration: none;
 }
+
+.app-logo {
+  max-width: 300px;
+  max-height: 250px;
+  display: block;
+  margin: 0 auto;
+}

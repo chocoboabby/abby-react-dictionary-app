@@ -1,3 +1,4 @@
+import dictionarylogo from "./dictionarylogo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -5,6 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <header>
+          <img src={dictionarylogo} className="app-logo img-fluid" alt="logo" />
+        </header>
         <div>
           <Dictionary defaultKeyword="cat" />
         </div>
