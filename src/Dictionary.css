@@ -1,4 +1,6 @@
 .Dictionary section {
+  position: relative;
+  bottom: 130px;
   background: #dbd8e3;
   padding: 30px;
   border-radius: 16px;

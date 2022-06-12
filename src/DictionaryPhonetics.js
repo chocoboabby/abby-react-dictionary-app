@@ -1,5 +1,6 @@
 import React from "react";
 import "./DictionaryPhonetics.css";
+import ReactAudioPlayer from "react-audio-player";
 
 export default function DictionaryPhonetics(props) {
   if (props.phonetic.audio === "") {
@@ -7,10 +8,13 @@ export default function DictionaryPhonetics(props) {
   } else {
     return (
       <div className="DictionaryPhonetics">
-        <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-          Listen
-        </a>
-        <span className="text">{props.phonetic.text}</span>
+        <ReactAudioPlayer
+          src={props.phonetic.audio}
+          controlsList={"nodownload"}
+          controls
+          className="sound"
+        />
+        <div className="text">{props.phonetic.text}</div>
       </div>
     );
   }
